@@ -14,6 +14,10 @@ const router = createBrowserRouter([
         {path:'about',element:<AboutPage/>},
         {path:'products',element:<ProductPage/>,loader:fetchProducts},
      ],
+    
     },
-]);
+
+], 
+{basename: '/Router-demo-lap',}
+);
 export default router;
